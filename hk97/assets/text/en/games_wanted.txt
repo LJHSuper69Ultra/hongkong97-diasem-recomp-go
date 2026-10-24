@@ -1,0 +1,10 @@
+# 'Games wanted' notice (English).
+# Each line: @x,y text   (x,y in 8-pixel tiles).
+@2,9         GAMES WANTED!
+@2,11 We will sell your original
+@2,12 S-NES games.(1/3 of the gross
+@2,13 profit will be yours)
+@2,14 We welcome games of any kind
+@2,15 so please send us your floppy.
+@2,16 We will contact you after
+@2,17 careful considerations.

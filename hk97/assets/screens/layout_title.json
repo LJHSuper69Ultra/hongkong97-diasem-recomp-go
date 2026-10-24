@@ -1,0 +1,9 @@
+{
+  "comment": "Picture layout for the title screen: rectangles (in tiles) of the BG2 picture to show; tile_base adds palette/priority bits.",
+  "fields": [["x", "u16"], ["y", "u16"], ["w", "u16"], ["h", "u16"], ["tile_base", "x16"]],
+  "rows": [
+    {"x": 0, "y": 0, "w": 32, "h": 28, "tile_base": "0x2400"},
+    {"x": 16, "y": 11, "w": 16, "h": 18, "tile_base": "0x2800"}
+  ],
+  "terminator": "FFFF"
+}

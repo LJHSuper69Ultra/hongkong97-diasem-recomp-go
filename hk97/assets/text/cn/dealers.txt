@@ -1,0 +1,6 @@
+# Dealer notice (Chinese).
+# Each line: @x,y text   (x,y in 8-pixel tiles).
+@2,2 　　閣下的店舗售賣馬？
+@2,6 我們希望和貴店交易。如果訂下
+@2,8 ５０個以上。可以提供大幅度的
+@2,10 折扣。詳情請随便詢問。

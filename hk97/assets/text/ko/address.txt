@@ -1,0 +1,6 @@
+# Publisher address (Japanese).
+# Each line: @x,y text   (x,y in 8-pixel tiles).
+@2,10 〒１６０　東京都新宿区西新宿
+@2,12 ７ー１２ー１
+@2,14 トガワビル３Ｆー３２４
+@2,16 吉喜軟体公司

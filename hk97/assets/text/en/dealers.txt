@@ -1,0 +1,9 @@
+# Dealer notice (English).
+# Each line: @x,y text   (x,y in 8-pixel tiles).
+@2,9 Would you like to sell our
+@2,10 products at your store?
+@2,12 We are looking for dealers
+@2,13 worldwide.We will heavily
+@2,14 discount orders for more
+@2,15 than 50 pieces.Please ask us
+@2,16 for details.

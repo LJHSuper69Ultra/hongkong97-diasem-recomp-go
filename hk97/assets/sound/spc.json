@@ -1,0 +1,11 @@
+{
+  "comment": "SPC700 sound program, uploaded to the audio CPU at power-on ($80:C8C3): blocks copied to SPC RAM, then execution starts at `entry`. Not played by this port yet.",
+  "entry": "0x0800",
+  "blocks": [
+    {"dest": "0x3900", "file": "sound/spc_3900.bin"},
+    {"dest": "0x0800", "file": "sound/spc_0800.bin"},
+    {"dest": "0x3C00", "file": "sound/spc_3C00.bin"},
+    {"dest": "0x3C10", "file": "sound/spc_3C10.bin"},
+    {"dest": "0x0200", "file": "sound/spc_0200.bin"}
+  ]
+}

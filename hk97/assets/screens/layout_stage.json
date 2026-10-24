@@ -1,0 +1,6 @@
+{
+  "comment": "Picture layout for the stage background: rectangles (in tiles) of the BG2 picture to show; tile_base adds palette/priority bits.",
+  "fields": [["x", "u16"], ["y", "u16"], ["w", "u16"], ["h", "u16"], ["tile_base", "x16"]],
+  "rows": [{"x": 0, "y": 0, "w": 32, "h": 28, "tile_base": "0x0400"}],
+  "terminator": "FFFF"
+}

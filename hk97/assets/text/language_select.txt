@@ -1,0 +1,10 @@
+# Power-on screen: publisher and language menu.
+# Each line: @x,y text   (x,y in 8-pixel tiles).
+@5,5 　　　製造・販売
+@6,7 　　吉喜軟体公司
+@5,9 （ＨａｐｐｙＳｏｆｔ）
+@5,11 　版權所有　翻印必究
+@5,17 　　　　日本語
+@6,19 　　　　中文
+@5,21 　　Ｅｎｇｌｉｓｈ
+@5,23 　　　　한국어

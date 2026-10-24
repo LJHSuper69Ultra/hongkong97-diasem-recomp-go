@@ -1,0 +1,15 @@
+{
+  "comment": "Score display: the four BG tile entries (2x2) drawn for digit values 0-8 (Chinese numerals).",
+  "fields": [["top_left", "x16"], ["top_right", "x16"], ["bottom_left", "x16"], ["bottom_right", "x16"]],
+  "rows": [
+    {"top_left": "0x1402", "top_right": "0x1403", "bottom_left": "0x1412", "bottom_right": "0x1413"},
+    {"top_left": "0x1404", "top_right": "0x1405", "bottom_left": "0x1414", "bottom_right": "0x1415"},
+    {"top_left": "0x1406", "top_right": "0x1407", "bottom_left": "0x1416", "bottom_right": "0x1417"},
+    {"top_left": "0x1408", "top_right": "0x1409", "bottom_left": "0x1418", "bottom_right": "0x1419"},
+    {"top_left": "0x140A", "top_right": "0x140B", "bottom_left": "0x141A", "bottom_right": "0x141B"},
+    {"top_left": "0x140C", "top_right": "0x140D", "bottom_left": "0x141C", "bottom_right": "0x141D"},
+    {"top_left": "0x140E", "top_right": "0x140F", "bottom_left": "0x141E", "bottom_right": "0x141F"},
+    {"top_left": "0x1420", "top_right": "0x1421", "bottom_left": "0x1430", "bottom_right": "0x1431"},
+    {"top_left": "0x1422", "top_right": "0x1423", "bottom_left": "0x1432", "bottom_right": "0x1433"}
+  ]
+}

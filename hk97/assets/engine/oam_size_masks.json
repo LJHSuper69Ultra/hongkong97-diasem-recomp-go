@@ -1,0 +1,5 @@
+{
+  "comment": "Bit masks for the 4 sprites sharing one OAM high-table byte ($80:8788).",
+  "fields": [["mask", "x8"]],
+  "rows": [{"mask": "0x01"}, {"mask": "0x04"}, {"mask": "0x10"}, {"mask": "0x40"}]
+}

@@ -1,0 +1,11 @@
+# Credits page 1 (after game over).
+# Each line: @x,y text   (x,y in 8-pixel tiles).
+@7,3 　　　制作群
+@8,6 　　　原案
+@7,8 　　　陳太黒
+@8,11 　　遊戯的紐
+@7,13 ＤａｖｉｄＣｈｉｎ
+@8,16 　　音響制作
+@8,18 　　スラポン
+@8,21 　　電脳絵画
+@7,23 　　小川のり子

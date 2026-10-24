@@ -1,0 +1,6 @@
+# Publisher address (English).
+# Each line: @x,y text   (x,y in 8-pixel tiles).
+@4,9   HAPPY SOFTWARE LTD.
+@4,11 3F-324.7-12-1
+@4,12 Nishi-shinjuku Shinjuku
+@4,13 TOKYO JAPAN

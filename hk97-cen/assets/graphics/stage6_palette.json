@@ -1,0 +1,21 @@
+{
+  "comment": "Stage background 6 palette. Colours are 15-bit (#RRGGBB with 5 significant bits per channel).",
+  "colors": [
+    "#101010",
+    "#313131",
+    "#424242",
+    "#4A4A4A",
+    "#525252",
+    "#636363",
+    "#737373",
+    "#8C8C8C",
+    "#9C9C9C",
+    "#A5A5A5",
+    "#ADADAD",
+    "#BDBDBD",
+    "#C6C6C6",
+    "#D6D6D6",
+    "#E7E7E7",
+    "#000000"
+  ]
+}

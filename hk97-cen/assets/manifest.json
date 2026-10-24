@@ -1,0 +1,1024 @@
+{
+  "comment": "Every piece of Hong Kong 97 data, where it lives in the game's address space, and the file it is built from. tools/pack reads this. 'slot' is the space reserved at 'addr'; an edited asset must still fit.",
+  "items": [
+    {
+      "name": "ppu_init",
+      "kind": "table",
+      "addr": "80:8039",
+      "slot": 45,
+      "file": "engine/ppu_init.json",
+      "place": "bank80"
+    },
+    {
+      "name": "unused_dead_code_80828C",
+      "kind": "raw",
+      "addr": "80:828C",
+      "slot": 3,
+      "file": "unused/dead_code_80828C.bin",
+      "place": "fixed",
+      "comment": "Code that is never called (so it was not recompiled). Kept only so the data image is complete."
+    },
+    {
+      "name": "unused_dead_code_8082CD",
+      "kind": "raw",
+      "addr": "80:82CD",
+      "slot": 4,
+      "file": "unused/dead_code_8082CD.bin",
+      "place": "fixed",
+      "comment": "Code that is never called (so it was not recompiled). Kept only so the data image is complete."
+    },
+    {
+      "name": "unused_dead_code_8082E9",
+      "kind": "raw",
+      "addr": "80:82E9",
+      "slot": 4,
+      "file": "unused/dead_code_8082E9.bin",
+      "place": "fixed",
+      "comment": "Code that is never called (so it was not recompiled). Kept only so the data image is complete."
+    },
+    {
+      "name": "unused_dead_code_80839A",
+      "kind": "raw",
+      "addr": "80:839A",
+      "slot": 2,
+      "file": "unused/dead_code_80839A.bin",
+      "place": "fixed",
+      "comment": "Code that is never called (so it was not recompiled). Kept only so the data image is complete."
+    },
+    {
+      "name": "unused_dead_code_8083AF",
+      "kind": "raw",
+      "addr": "80:83AF",
+      "slot": 4,
+      "file": "unused/dead_code_8083AF.bin",
+      "place": "fixed",
+      "comment": "Code that is never called (so it was not recompiled). Kept only so the data image is complete."
+    },
+    {
+      "name": "oam_size_masks",
+      "kind": "table",
+      "addr": "80:87B6",
+      "slot": 4,
+      "file": "engine/oam_size_masks.json",
+      "place": "bank80"
+    },
+    {
+      "name": "object_types",
+      "kind": "table",
+      "addr": "80:8A15",
+      "slot": 165,
+      "file": "objects/object_types.json",
+      "place": "bank80"
+    },
+    {
+      "name": "object_ram_animations",
+      "kind": "table",
+      "addr": "80:8AE7",
+      "slot": 30,
+      "file": "objects/ram_animation_tables.json",
+      "place": "bank80"
+    },
+    {
+      "name": "text_language_select",
+      "kind": "text",
+      "addr": "80:8B05",
+      "slot": 162,
+      "file": "text/language_select.txt",
+      "renderer": "16",
+      "place": "bank80"
+    },
+    {
+      "name": "text_jp_address",
+      "kind": "text",
+      "addr": "80:8BA7",
+      "slot": 100,
+      "file": "text/jp/address.txt",
+      "renderer": "16",
+      "place": "bank80"
+    },
+    {
+      "name": "text_jp_games_wanted",
+      "kind": "text",
+      "addr": "80:8C0B",
+      "slot": 350,
+      "file": "text/jp/games_wanted.txt",
+      "renderer": "16",
+      "place": "bank80"
+    },
+    {
+      "name": "text_jp_dealers",
+      "kind": "text",
+      "addr": "80:8D69",
+      "slot": 322,
+      "file": "text/jp/dealers.txt",
+      "renderer": "16",
+      "place": "bank80"
+    },
+    {
+      "name": "text_jp_story1",
+      "kind": "text",
+      "addr": "80:8EAB",
+      "slot": 102,
+      "file": "text/jp/story1.txt",
+      "renderer": "16",
+      "place": "bank80"
+    },
+    {
+      "name": "text_jp_story2",
+      "kind": "text",
+      "addr": "80:8F11",
+      "slot": 102,
+      "file": "text/jp/story2.txt",
+      "renderer": "16",
+      "place": "bank80"
+    },
+    {
+      "name": "text_jp_story3",
+      "kind": "text",
+      "addr": "80:8F77",
+      "slot": 94,
+      "file": "text/jp/story3.txt",
+      "renderer": "16",
+      "place": "bank80"
+    },
+    {
+      "name": "text_jp_story4",
+      "kind": "text",
+      "addr": "80:8FD5",
+      "slot": 94,
+      "file": "text/jp/story4.txt",
+      "renderer": "16",
+      "place": "bank80"
+    },
+    {
+      "name": "text_cn_address",
+      "kind": "text",
+      "addr": "80:9033",
+      "slot": 86,
+      "file": "text/cn/address.txt",
+      "renderer": "16",
+      "place": "bank80"
+    },
+    {
+      "name": "text_cn_games_wanted",
+      "kind": "text",
+      "addr": "80:9089",
+      "slot": 154,
+      "file": "text/cn/games_wanted.txt",
+      "renderer": "16",
+      "place": "bank80"
+    },
+    {
+      "name": "text_cn_dealers",
+      "kind": "text",
+      "addr": "80:9123",
+      "slot": 126,
+      "file": "text/cn/dealers.txt",
+      "renderer": "16",
+      "place": "bank80"
+    },
+    {
+      "name": "text_cn_story1",
+      "kind": "text",
+      "addr": "80:91A1",
+      "slot": 58,
+      "file": "text/cn/story1.txt",
+      "renderer": "16",
+      "place": "bank80"
+    },
+    {
+      "name": "text_cn_story2",
+      "kind": "text",
+      "addr": "80:91DB",
+      "slot": 96,
+      "file": "text/cn/story2.txt",
+      "renderer": "16",
+      "place": "bank80"
+    },
+    {
+      "name": "text_cn_story3",
+      "kind": "text",
+      "addr": "80:923B",
+      "slot": 90,
+      "file": "text/cn/story3.txt",
+      "renderer": "16",
+      "place": "bank80"
+    },
+    {
+      "name": "text_cn_story4",
+      "kind": "text",
+      "addr": "80:9295",
+      "slot": 72,
+      "file": "text/cn/story4.txt",
+      "renderer": "16",
+      "place": "bank80"
+    },
+    {
+      "name": "text_credits1",
+      "kind": "text",
+      "addr": "80:92DD",
+      "slot": 170,
+      "file": "text/credits1.txt",
+      "renderer": "16",
+      "place": "bank80"
+    },
+    {
+      "name": "text_credits2",
+      "kind": "text",
+      "addr": "80:9387",
+      "slot": 152,
+      "file": "text/credits2.txt",
+      "renderer": "16",
+      "place": "bank80"
+    },
+    {
+      "name": "text_en_story1",
+      "kind": "text",
+      "addr": "80:941F",
+      "slot": 192,
+      "file": "text/en/story1.txt",
+      "renderer": "8x8",
+      "place": "bank80"
+    },
+    {
+      "name": "text_en_story2",
+      "kind": "text",
+      "addr": "80:94DF",
+      "slot": 250,
+      "file": "text/en/story2.txt",
+      "renderer": "8x8",
+      "place": "bank80"
+    },
+    {
+      "name": "text_en_story3",
+      "kind": "text",
+      "addr": "80:95D9",
+      "slot": 226,
+      "file": "text/en/story3.txt",
+      "renderer": "8x8",
+      "place": "bank80"
+    },
+    {
+      "name": "text_en_story4",
+      "kind": "text",
+      "addr": "80:96BB",
+      "slot": 312,
+      "file": "text/en/story4.txt",
+      "renderer": "8x8",
+      "place": "bank80"
+    },
+    {
+      "name": "text_en_address",
+      "kind": "text",
+      "addr": "80:97F3",
+      "slot": 162,
+      "file": "text/en/address.txt",
+      "renderer": "8x8",
+      "place": "bank80"
+    },
+    {
+      "name": "text_en_games_wanted",
+      "kind": "text",
+      "addr": "80:9895",
+      "slot": 456,
+      "file": "text/en/games_wanted.txt",
+      "renderer": "8x8",
+      "place": "bank80"
+    },
+    {
+      "name": "text_en_dealers",
+      "kind": "text",
+      "addr": "80:9A5D",
+      "slot": 372,
+      "file": "text/en/dealers.txt",
+      "renderer": "8x8",
+      "place": "bank80"
+    },
+    {
+      "name": "text_ko_story1",
+      "kind": "text",
+      "file": "text/ko/story1.txt",
+      "renderer": "16",
+      "place": "bank80",
+      "new": true
+    },
+    {
+      "name": "text_ko_story2",
+      "kind": "text",
+      "file": "text/ko/story2.txt",
+      "renderer": "16",
+      "place": "bank80",
+      "new": true
+    },
+    {
+      "name": "text_ko_story3",
+      "kind": "text",
+      "file": "text/ko/story3.txt",
+      "renderer": "16",
+      "place": "bank80",
+      "new": true
+    },
+    {
+      "name": "text_ko_story4",
+      "kind": "text",
+      "file": "text/ko/story4.txt",
+      "renderer": "16",
+      "place": "bank80",
+      "new": true
+    },
+    {
+      "name": "text_ko_address",
+      "kind": "text",
+      "file": "text/ko/address.txt",
+      "renderer": "16",
+      "place": "bank80",
+      "new": true
+    },
+    {
+      "name": "text_ko_games_wanted",
+      "kind": "text",
+      "file": "text/ko/games_wanted.txt",
+      "renderer": "16",
+      "place": "bank80",
+      "new": true
+    },
+    {
+      "name": "text_ko_dealers",
+      "kind": "text",
+      "file": "text/ko/dealers.txt",
+      "renderer": "16",
+      "place": "bank80",
+      "new": true
+    },
+    {
+      "name": "unused_dead_code_809BE3",
+      "kind": "raw",
+      "addr": "80:9BE3",
+      "slot": 12,
+      "file": "unused/dead_code_809BE3.bin",
+      "place": "fixed",
+      "comment": "Code that is never called (so it was not recompiled). Kept only so the data image is complete."
+    },
+    {
+      "name": "unused_dead_code_809C5B",
+      "kind": "raw",
+      "addr": "80:9C5B",
+      "slot": 20,
+      "file": "unused/dead_code_809C5B.bin",
+      "place": "fixed",
+      "comment": "Code that is never called (so it was not recompiled). Kept only so the data image is complete."
+    },
+    {
+      "name": "unused_dead_code_809C9D",
+      "kind": "raw",
+      "addr": "80:9C9D",
+      "slot": 4,
+      "file": "unused/dead_code_809C9D.bin",
+      "place": "fixed",
+      "comment": "Code that is never called (so it was not recompiled). Kept only so the data image is complete."
+    },
+    {
+      "name": "unused_dead_code_809D22",
+      "kind": "raw",
+      "addr": "80:9D22",
+      "slot": 86,
+      "file": "unused/dead_code_809D22.bin",
+      "place": "fixed",
+      "comment": "Code that is never called (so it was not recompiled). Kept only so the data image is complete."
+    },
+    {
+      "name": "unused_dead_code_809D8D",
+      "kind": "raw",
+      "addr": "80:9D8D",
+      "slot": 25,
+      "file": "unused/dead_code_809D8D.bin",
+      "place": "fixed",
+      "comment": "Code that is never called (so it was not recompiled). Kept only so the data image is complete."
+    },
+    {
+      "name": "unused_dead_code_80A03C",
+      "kind": "raw",
+      "addr": "80:A03C",
+      "slot": 40,
+      "file": "unused/dead_code_80A03C.bin",
+      "place": "fixed",
+      "comment": "Code that is never called (so it was not recompiled). Kept only so the data image is complete."
+    },
+    {
+      "name": "explosion_offsets",
+      "kind": "table",
+      "addr": "80:A0EA",
+      "slot": 100,
+      "file": "objects/explosion_offsets.json",
+      "place": "bank80"
+    },
+    {
+      "name": "boss_dive",
+      "kind": "table",
+      "addr": "80:A4A5",
+      "slot": 17,
+      "file": "objects/boss_dive.json",
+      "place": "bank80"
+    },
+    {
+      "name": "unused_dead_code_80A4B6",
+      "kind": "raw",
+      "addr": "80:A4B6",
+      "slot": 3,
+      "file": "unused/dead_code_80A4B6.bin",
+      "place": "fixed",
+      "comment": "Code that is never called (so it was not recompiled). Kept only so the data image is complete."
+    },
+    {
+      "name": "shooter_speed",
+      "kind": "table",
+      "addr": "80:A6B2",
+      "slot": 28,
+      "file": "objects/shooter_speed.json",
+      "place": "bank80"
+    },
+    {
+      "name": "wobble",
+      "kind": "table",
+      "addr": "80:A72D",
+      "slot": 82,
+      "file": "objects/wobble.json",
+      "place": "bank80"
+    },
+    {
+      "name": "side_enemy_y",
+      "kind": "table",
+      "addr": "80:AA2E",
+      "slot": 20,
+      "file": "stage/side_enemy_y.json",
+      "place": "bank80"
+    },
+    {
+      "name": "spawn_x",
+      "kind": "table",
+      "addr": "80:AA42",
+      "slot": 19,
+      "file": "stage/spawn_x.json",
+      "place": "bank80"
+    },
+    {
+      "name": "waves",
+      "kind": "table",
+      "addr": "80:AA55",
+      "slot": 61,
+      "file": "stage/waves.json",
+      "place": "bank80"
+    },
+    {
+      "name": "touch_kind",
+      "kind": "table",
+      "addr": "80:AD50",
+      "slot": 15,
+      "file": "objects/touch_kind.json",
+      "place": "bank80"
+    },
+    {
+      "name": "drops",
+      "kind": "table",
+      "addr": "80:AF2F",
+      "slot": 41,
+      "file": "objects/drops.json",
+      "place": "bank80"
+    },
+    {
+      "name": "shot_kind",
+      "kind": "table",
+      "addr": "80:AF58",
+      "slot": 15,
+      "file": "objects/shot_kind.json",
+      "place": "bank80"
+    },
+    {
+      "name": "unused_dead_code_80B131",
+      "kind": "raw",
+      "addr": "80:B131",
+      "slot": 4,
+      "file": "unused/dead_code_80B131.bin",
+      "place": "fixed",
+      "comment": "Code that is never called (so it was not recompiled). Kept only so the data image is complete."
+    },
+    {
+      "name": "unused_dead_code_80B18B",
+      "kind": "raw",
+      "addr": "80:B18B",
+      "slot": 8,
+      "file": "unused/dead_code_80B18B.bin",
+      "place": "fixed",
+      "comment": "Code that is never called (so it was not recompiled). Kept only so the data image is complete."
+    },
+    {
+      "name": "unused_dead_code_80B537",
+      "kind": "raw",
+      "addr": "80:B537",
+      "slot": 24,
+      "file": "unused/dead_code_80B537.bin",
+      "place": "fixed",
+      "comment": "Code that is never called (so it was not recompiled). Kept only so the data image is complete."
+    },
+    {
+      "name": "score_digit_pos",
+      "kind": "table",
+      "addr": "80:B5DD",
+      "slot": 18,
+      "file": "hud/score_digit_positions.json",
+      "place": "bank80"
+    },
+    {
+      "name": "score_digit_tiles",
+      "kind": "table",
+      "addr": "80:B5EF",
+      "slot": 72,
+      "file": "hud/score_digit_tiles.json",
+      "place": "bank80"
+    },
+    {
+      "name": "unused_data_80B637",
+      "kind": "raw",
+      "addr": "80:B637",
+      "slot": 235,
+      "file": "unused/data_80B637.bin",
+      "place": "fixed",
+      "comment": "Table that no code reads (it follows the score tables; looks like BG tile entries)."
+    },
+    {
+      "name": "unused_dead_code_80B79E",
+      "kind": "raw",
+      "addr": "80:B79E",
+      "slot": 4,
+      "file": "unused/dead_code_80B79E.bin",
+      "place": "fixed",
+      "comment": "Code that is never called (so it was not recompiled). Kept only so the data image is complete."
+    },
+    {
+      "name": "unused_dead_code_80B85F",
+      "kind": "raw",
+      "addr": "80:B85F",
+      "slot": 10,
+      "file": "unused/dead_code_80B85F.bin",
+      "place": "fixed",
+      "comment": "Code that is never called (so it was not recompiled). Kept only so the data image is complete."
+    },
+    {
+      "name": "unused_dead_code_80BA2B",
+      "kind": "raw",
+      "addr": "80:BA2B",
+      "slot": 552,
+      "file": "unused/dead_code_80BA2B.bin",
+      "place": "fixed",
+      "comment": "Code that is never called (so it was not recompiled). Kept only so the data image is complete."
+    },
+    {
+      "name": "language_cursor",
+      "kind": "table",
+      "addr": "80:BCDB",
+      "slot": 8,
+      "file": "menu/language_cursor.json",
+      "place": "bank80"
+    },
+    {
+      "name": "layout_stage",
+      "kind": "table",
+      "addr": "80:BDBF",
+      "slot": 12,
+      "file": "screens/layout_stage.json",
+      "place": "bank80"
+    },
+    {
+      "name": "layout_title",
+      "kind": "table",
+      "addr": "80:C4E6",
+      "slot": 22,
+      "file": "screens/layout_title.json",
+      "place": "bank80"
+    },
+    {
+      "name": "layout_story1",
+      "kind": "table",
+      "addr": "80:C4FC",
+      "slot": 12,
+      "file": "screens/layout_story1.json",
+      "place": "bank80"
+    },
+    {
+      "name": "layout_story2",
+      "kind": "table",
+      "addr": "80:C508",
+      "slot": 12,
+      "file": "screens/layout_story2.json",
+      "place": "bank80"
+    },
+    {
+      "name": "layout_story3",
+      "kind": "table",
+      "addr": "80:C514",
+      "slot": 12,
+      "file": "screens/layout_story3.json",
+      "place": "bank80"
+    },
+    {
+      "name": "layout_story4",
+      "kind": "table",
+      "addr": "80:C520",
+      "slot": 12,
+      "file": "screens/layout_story4.json",
+      "place": "bank80"
+    },
+    {
+      "name": "unused_dead_code_80C6DE",
+      "kind": "raw",
+      "addr": "80:C6DE",
+      "slot": 1,
+      "file": "unused/dead_code_80C6DE.bin",
+      "place": "fixed",
+      "comment": "Code that is never called (so it was not recompiled). Kept only so the data image is complete."
+    },
+    {
+      "name": "layout_gameover",
+      "kind": "table",
+      "addr": "80:C6DF",
+      "slot": 12,
+      "file": "screens/layout_gameover.json",
+      "place": "bank80"
+    },
+    {
+      "name": "unused_dead_code_80C707",
+      "kind": "raw",
+      "addr": "80:C707",
+      "slot": 444,
+      "file": "unused/dead_code_80C707.bin",
+      "place": "fixed",
+      "comment": "Code that is never called (so it was not recompiled). Kept only so the data image is complete."
+    },
+    {
+      "name": "header",
+      "kind": "header",
+      "addr": "80:FFB0",
+      "slot": 80,
+      "file": "header.json",
+      "place": "fixed"
+    },
+    {
+      "name": "unused_dead_code_81803E",
+      "kind": "raw",
+      "addr": "81:803E",
+      "slot": 1,
+      "file": "unused/dead_code_81803E.bin",
+      "place": "fixed",
+      "comment": "Code that is never called (so it was not recompiled). Kept only so the data image is complete."
+    },
+    {
+      "name": "sprite_animations",
+      "kind": "sprites",
+      "addr": "82:8000",
+      "slot": 1949,
+      "file": "sprites/animations.json",
+      "place": "fixed"
+    },
+    {
+      "name": "font",
+      "kind": "font",
+      "addr": "83:8000",
+      "slot": 34304,
+      "file": "font/font.png",
+      "place": "fixed",
+      "comment": "2bpp glyphs. 8x8 English text: glyph c at tile c. 16x16 glyphs: code c at tile column (c%8)*2, row (c/8)*2. Character tables: assetfmt/text.go and assetfmt/cjk_gen.go."
+    },
+    {
+      "name": "font_hangul",
+      "kind": "font",
+      "addr": "84:8600",
+      "slot": 31232,
+      "file": "font/hangul.png",
+      "place": "fixed",
+      "new": true,
+      "chars": "font/hangul.txt",
+      "comment": "Added for the Korean translation: 16x16 glyphs continuing the font right after its end, codes from $0218 (up to $03FF). Characters: font/hangul.txt. Generated by tools/hangul."
+    },
+    {
+      "name": "game_tiles",
+      "kind": "lz_tiles",
+      "addr": "84:8600",
+      "slot": 8485,
+      "file": "graphics/game_tiles.png",
+      "preview_palette": "game_palette",
+      "place": "anywhere",
+      "comment": "Sprites and HUD tiles (VRAM $0000)."
+    },
+    {
+      "name": "game_palette",
+      "kind": "lz_palette",
+      "addr": "84:A725",
+      "slot": 260,
+      "file": "graphics/game_palette.json",
+      "place": "anywhere",
+      "comment": "Gameplay BG and sprite palettes (128 colours)."
+    },
+    {
+      "name": "title",
+      "kind": "lz_picture",
+      "addr": "84:A829",
+      "slot": 11354,
+      "file": "graphics/title.png",
+      "preview_palette": "title_palette",
+      "place": "anywhere",
+      "comment": "Title screen picture."
+    },
+    {
+      "name": "title_palette",
+      "kind": "lz_palette",
+      "addr": "84:D483",
+      "slot": 100,
+      "file": "graphics/title_palette.json",
+      "place": "anywhere",
+      "comment": "Title screen palettes 1-3."
+    },
+    {
+      "name": "base_palette",
+      "kind": "lz_palette",
+      "addr": "84:D4E7",
+      "slot": 12,
+      "file": "graphics/base_palette.json",
+      "place": "anywhere",
+      "comment": "Palette 0 (text and backdrop)."
+    },
+    {
+      "name": "story1_palette",
+      "kind": "lz_palette",
+      "addr": "84:D4F3",
+      "slot": 35,
+      "file": "graphics/story1_palette.json",
+      "place": "anywhere",
+      "comment": "Story page 1 palette."
+    },
+    {
+      "name": "story1",
+      "kind": "lz_picture",
+      "addr": "84:D516",
+      "slot": 17623,
+      "file": "graphics/story1.png",
+      "preview_palette": "story1_palette",
+      "place": "anywhere",
+      "comment": "Story page 1 picture (parade)."
+    },
+    {
+      "name": "story2_palette",
+      "kind": "lz_palette",
+      "addr": "85:99ED",
+      "slot": 100,
+      "file": "graphics/story2_palette.json",
+      "place": "anywhere",
+      "comment": "Story page 2 palettes 1-3."
+    },
+    {
+      "name": "story2_layer_tiles",
+      "kind": "lz_tiles",
+      "addr": "85:9A51",
+      "slot": 4103,
+      "file": "graphics/story2_layer_tiles.png",
+      "preview_palette": "story2_palette",
+      "place": "anywhere",
+      "comment": "Story page 2 foreground layer tiles (BG1)."
+    },
+    {
+      "name": "story2_layer_map",
+      "kind": "lz_tilemap",
+      "addr": "85:AA58",
+      "slot": 693,
+      "file": "graphics/story2_layer_map.json",
+      "place": "anywhere",
+      "comment": "Story page 2 foreground layer tilemap (BG1)."
+    },
+    {
+      "name": "story2",
+      "kind": "lz_picture",
+      "addr": "85:AD0D",
+      "slot": 16284,
+      "file": "graphics/story2.png",
+      "preview_palette": "story2_palette",
+      "place": "anywhere",
+      "comment": "Story page 2 picture."
+    },
+    {
+      "name": "story3_palette",
+      "kind": "lz_palette",
+      "addr": "85:ECA9",
+      "slot": 68,
+      "file": "graphics/story3_palette.json",
+      "place": "anywhere",
+      "comment": "Story page 3 palettes 1-2."
+    },
+    {
+      "name": "story3_layer_tiles",
+      "kind": "lz_tiles",
+      "addr": "85:ECED",
+      "slot": 5532,
+      "file": "graphics/story3_layer_tiles.png",
+      "preview_palette": "story3_palette",
+      "place": "anywhere",
+      "comment": "Story page 3 foreground layer tiles (BG1)."
+    },
+    {
+      "name": "story3_layer_map",
+      "kind": "lz_tilemap",
+      "addr": "86:8289",
+      "slot": 556,
+      "file": "graphics/story3_layer_map.json",
+      "place": "anywhere",
+      "comment": "Story page 3 foreground layer tilemap (BG1)."
+    },
+    {
+      "name": "story3",
+      "kind": "lz_picture",
+      "addr": "86:84B5",
+      "slot": 18089,
+      "file": "graphics/story3.png",
+      "preview_palette": "story3_palette",
+      "place": "anywhere",
+      "comment": "Story page 3 picture."
+    },
+    {
+      "name": "story4_palette",
+      "kind": "lz_palette",
+      "addr": "86:CB5E",
+      "slot": 36,
+      "file": "graphics/story4_palette.json",
+      "place": "anywhere",
+      "comment": "Story page 4 palette."
+    },
+    {
+      "name": "story4",
+      "kind": "lz_picture",
+      "addr": "86:CB82",
+      "slot": 6089,
+      "file": "graphics/story4.png",
+      "preview_palette": "story4_palette",
+      "place": "anywhere",
+      "comment": "Story page 4 picture."
+    },
+    {
+      "name": "unused_palette",
+      "kind": "lz_palette",
+      "addr": "86:E34B",
+      "slot": 36,
+      "file": "graphics/unused_palette.json",
+      "place": "anywhere",
+      "comment": "Palette of a picture the game never shows."
+    },
+    {
+      "name": "unused_picture",
+      "kind": "lz_picture",
+      "addr": "86:E36F",
+      "slot": 18951,
+      "file": "graphics/unused_picture.png",
+      "preview_palette": "unused_palette",
+      "place": "anywhere",
+      "comment": "A picture the game never shows (no code refers to it)."
+    },
+    {
+      "name": "gameover_palette",
+      "kind": "lz_palette",
+      "addr": "87:AD76",
+      "slot": 36,
+      "file": "graphics/gameover_palette.json",
+      "place": "anywhere",
+      "comment": "Game over picture palette."
+    },
+    {
+      "name": "gameover",
+      "kind": "lz_picture",
+      "addr": "87:AD9A",
+      "slot": 21730,
+      "file": "graphics/gameover.png",
+      "preview_palette": "gameover_palette",
+      "place": "anywhere",
+      "comment": "Game over picture."
+    },
+    {
+      "name": "stage2_palette",
+      "kind": "lz_palette",
+      "addr": "88:827C",
+      "slot": 36,
+      "file": "graphics/stage2_palette.json",
+      "place": "anywhere",
+      "comment": "Stage background 2 palette."
+    },
+    {
+      "name": "stage2",
+      "kind": "lz_picture",
+      "addr": "88:82A0",
+      "slot": 13792,
+      "file": "graphics/stage2.png",
+      "preview_palette": "stage2_palette",
+      "place": "anywhere",
+      "comment": "Stage background 2."
+    },
+    {
+      "name": "stage1_palette",
+      "kind": "lz_palette",
+      "addr": "88:B880",
+      "slot": 36,
+      "file": "graphics/stage1_palette.json",
+      "place": "anywhere",
+      "comment": "Stage background 1 palette."
+    },
+    {
+      "name": "stage1",
+      "kind": "lz_picture",
+      "addr": "88:B8A4",
+      "slot": 15012,
+      "file": "graphics/stage1.png",
+      "preview_palette": "stage1_palette",
+      "place": "anywhere",
+      "comment": "Stage background 1 (each new game uses the next background)."
+    },
+    {
+      "name": "stage3_palette",
+      "kind": "lz_palette",
+      "addr": "88:F348",
+      "slot": 36,
+      "file": "graphics/stage3_palette.json",
+      "place": "anywhere",
+      "comment": "Stage background 3 palette."
+    },
+    {
+      "name": "stage3",
+      "kind": "lz_picture",
+      "addr": "88:F36C",
+      "slot": 24688,
+      "file": "graphics/stage3.png",
+      "preview_palette": "stage3_palette",
+      "place": "anywhere",
+      "comment": "Stage background 3."
+    },
+    {
+      "name": "stage4_palette",
+      "kind": "lz_palette",
+      "addr": "89:D3DC",
+      "slot": 36,
+      "file": "graphics/stage4_palette.json",
+      "place": "anywhere",
+      "comment": "Stage background 4 palette."
+    },
+    {
+      "name": "stage4",
+      "kind": "lz_picture",
+      "addr": "89:D400",
+      "slot": 20313,
+      "file": "graphics/stage4.png",
+      "preview_palette": "stage4_palette",
+      "place": "anywhere",
+      "comment": "Stage background 4."
+    },
+    {
+      "name": "stage5_palette",
+      "kind": "lz_palette",
+      "addr": "8A:A359",
+      "slot": 36,
+      "file": "graphics/stage5_palette.json",
+      "place": "anywhere",
+      "comment": "Stage background 5 palette."
+    },
+    {
+      "name": "stage5",
+      "kind": "lz_picture",
+      "addr": "8A:A37D",
+      "slot": 11943,
+      "file": "graphics/stage5.png",
+      "preview_palette": "stage5_palette",
+      "place": "anywhere",
+      "comment": "Stage background 5."
+    },
+    {
+      "name": "stage6_palette",
+      "kind": "lz_palette",
+      "addr": "8A:D224",
+      "slot": 36,
+      "file": "graphics/stage6_palette.json",
+      "place": "anywhere",
+      "comment": "Stage background 6 palette."
+    },
+    {
+      "name": "stage6",
+      "kind": "lz_picture",
+      "addr": "8A:D248",
+      "slot": 16785,
+      "file": "graphics/stage6.png",
+      "preview_palette": "stage6_palette",
+      "place": "anywhere",
+      "comment": "Stage background 6."
+    },
+    {
+      "name": "spc_program",
+      "kind": "spc",
+      "addr": "8F:8000",
+      "slot": 28036,
+      "file": "sound/spc.json",
+      "place": "fixed"
+    }
+  ]
+}

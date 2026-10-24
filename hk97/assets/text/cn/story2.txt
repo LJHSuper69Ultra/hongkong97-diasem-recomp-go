@@ -1,0 +1,5 @@
+# Story page 2 (Chinese).
+# Each line: @x,y text   (x,y in 8-pixel tiles).
+@2,21 很多罪案發生！因此香港政府呼
+@2,23 召李小龍（Ｂｒｕｃｅ　Ｌｅｅ）
+@2,25 的親戚、陳先生。。

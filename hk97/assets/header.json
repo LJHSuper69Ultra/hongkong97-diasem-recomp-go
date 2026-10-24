@@ -1,0 +1,15 @@
+{
+  "comment": "Cartridge header ($80:FFB0-FFFF). Interrupt vectors are listed for completeness; the recompiled game does not use them.",
+  "maker_area": "58585858585800000000000000000000",
+  "title": "HONG KONG 1997",
+  "map_mode": "0x20",
+  "cartridge_type": "0x00",
+  "rom_size": "0x09",
+  "ram_size": "0x00",
+  "region": "0x00",
+  "developer": "0x00",
+  "version": "0x00",
+  "checksum_complement": "0xFFFF",
+  "checksum": "0x0000",
+  "vectors": "00000000998399839983DC830080998300000000998399839983DC8300809983"
+}

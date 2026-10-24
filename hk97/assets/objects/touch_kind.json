@@ -1,0 +1,21 @@
+{
+  "comment": "What touching each object type does to the player: 0 nothing, 1 instant game over, 2 death animation, 3 invincibility item, 4 boss (only while active).",
+  "fields": [["kind", "u8"]],
+  "rows": [
+    {"kind": 0},
+    {"kind": 0},
+    {"kind": 1},
+    {"kind": 1},
+    {"kind": 1},
+    {"kind": 4},
+    {"kind": 0},
+    {"kind": 2},
+    {"kind": 3},
+    {"kind": 1},
+    {"kind": 1},
+    {"kind": 0},
+    {"kind": 0},
+    {"kind": 0},
+    {"kind": 0}
+  ]
+}

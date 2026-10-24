@@ -1,0 +1,5 @@
+# Story page 2 (Japanese).
+# Each line: @x,y text   (x,y in 8-pixel tiles).
+@2,21 犯罪多発！香港が汚れる！そこ
+@2,23 で香港政庁はあのブル～スリ～
+@2,25 の親戚、陳を秘密に呼び・・

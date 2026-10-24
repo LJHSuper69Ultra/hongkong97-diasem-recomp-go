@@ -1,0 +1,5 @@
+# Story page 3 (Chinese).
+# Each line: @x,y text   (x,y in 8-pixel tiles).
+@2,21 委託他進行人民抹殺計劃。陳先
+@2,23 生是殺人的專家將人民一個不留
+@2,25 地趨盡殺絶巴！

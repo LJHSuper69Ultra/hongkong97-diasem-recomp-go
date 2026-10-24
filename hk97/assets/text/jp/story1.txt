@@ -1,0 +1,5 @@
+# Story page 1 (Japanese).
+# Each line: @x,y text   (x,y in 8-pixel tiles).
+@2,21 １９９７年がやってきた。大陸
+@2,23 から薄汚い人民が痰を吐きなが
+@2,25 ら大挙して押し寄せてくる。

@@ -1,0 +1,5 @@
+# Story page 4 (Japanese).
+# Each line: @x,y text   (x,y in 8-pixel tiles).
+@2,21 しかし、中国では死亡した鄧小
+@2,23 平を巨大兵器に改造する研究が
+@2,25 着々と進んでいた！

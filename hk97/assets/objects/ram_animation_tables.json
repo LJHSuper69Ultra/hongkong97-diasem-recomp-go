@@ -1,0 +1,21 @@
+{
+  "comment": "Per object type: optional animation table in RAM bank $7E (0 = use the ROM descriptor). All zero.",
+  "fields": [["address", "x16"]],
+  "rows": [
+    {"address": "0x0000"},
+    {"address": "0x0000"},
+    {"address": "0x0000"},
+    {"address": "0x0000"},
+    {"address": "0x0000"},
+    {"address": "0x0000"},
+    {"address": "0x0000"},
+    {"address": "0x0000"},
+    {"address": "0x0000"},
+    {"address": "0x0000"},
+    {"address": "0x0000"},
+    {"address": "0x0000"},
+    {"address": "0x0000"},
+    {"address": "0x0000"},
+    {"address": "0x0000"}
+  ]
+}

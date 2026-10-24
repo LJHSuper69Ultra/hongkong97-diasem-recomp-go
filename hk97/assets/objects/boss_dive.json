@@ -1,0 +1,23 @@
+{
+  "comment": "Boss dive attack: pixels per frame while diving, by frame (last value repeats).",
+  "fields": [["speed", "u8"]],
+  "rows": [
+    {"speed": 24},
+    {"speed": 24},
+    {"speed": 12},
+    {"speed": 12},
+    {"speed": 12},
+    {"speed": 6},
+    {"speed": 6},
+    {"speed": 6},
+    {"speed": 4},
+    {"speed": 4},
+    {"speed": 4},
+    {"speed": 2},
+    {"speed": 2},
+    {"speed": 2},
+    {"speed": 1},
+    {"speed": 1},
+    {"speed": 1}
+  ]
+}

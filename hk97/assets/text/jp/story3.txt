@@ -1,0 +1,5 @@
+# Story page 3 (Japanese).
+# Each line: @x,y text   (x,y in 8-pixel tiles).
+@2,21 人民抹殺計画を依頼した。陳は
+@2,23 殺しのプロだ。１２億人民を一
+@2,25 人残らず抹殺せよ！

@@ -1,0 +1,6 @@
+# Story page 1 (English).
+# Each line: @x,y text   (x,y in 8-pixel tiles).
+@2,21 The year 1997 has arrived.
+@2,22 A herd of fuckin' ugly reds.
+@2,23 are rushing from the
+@2,24 mainland.

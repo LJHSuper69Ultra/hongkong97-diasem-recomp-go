@@ -1,0 +1,21 @@
+{
+  "comment": "Hardware registers written at power-on by $80:801F (value, register).",
+  "fields": [["value", "x8"], ["register", "x16"]],
+  "rows": [
+    {"value": "0x00", "register": "0x4200"},
+    {"value": "0x80", "register": "0x2100"},
+    {"value": "0x00", "register": "0x2133"},
+    {"value": "0x00", "register": "0x2101"},
+    {"value": "0x09", "register": "0x2105"},
+    {"value": "0x00", "register": "0x2106"},
+    {"value": "0x5C", "register": "0x2107"},
+    {"value": "0x58", "register": "0x2108"},
+    {"value": "0x7C", "register": "0x2109"},
+    {"value": "0x20", "register": "0x210B"},
+    {"value": "0x06", "register": "0x210C"},
+    {"value": "0x00", "register": "0x2123"},
+    {"value": "0x00", "register": "0x2124"},
+    {"value": "0x00", "register": "0x212E"},
+    {"value": "0x00", "register": "0x212F"}
+  ]
+}

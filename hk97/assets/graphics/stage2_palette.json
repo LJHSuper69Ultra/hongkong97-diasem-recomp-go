@@ -1,0 +1,21 @@
+{
+  "comment": "Stage background 2 palette. Colours are 15-bit (#RRGGBB with 5 significant bits per channel).",
+  "colors": [
+    "#000000",
+    "#080808",
+    "#212121",
+    "#313131",
+    "#393939",
+    "#424242",
+    "#525252",
+    "#636363",
+    "#737373",
+    "#8C8C8C",
+    "#ADADAD",
+    "#C6C6C6",
+    "#CECECE",
+    "#D6D6D6",
+    "#EFEFEF",
+    "#000000"
+  ]
+}

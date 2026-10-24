@@ -1,0 +1,7 @@
+# 'Games wanted' notice (Chinese).
+# Each line: @x,y text   (x,y in 8-pixel tiles).
+@2,2 　　　　　懲求遊戯
+@2,6 閣下所制作的ＳーＮＥＳ用遊戯
+@2,8 在日本等地方販賣。而報酬是純
+@2,10 利的１／３。不論任何遊戯亦可。
+@2,12 請閣下將磁喋送來。

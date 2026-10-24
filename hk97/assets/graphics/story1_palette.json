@@ -1,0 +1,21 @@
+{
+  "comment": "Story page 1 palette. Colours are 15-bit (#RRGGBB with 5 significant bits per channel).",
+  "colors": [
+    "#000000",
+    "#100000",
+    "#100000",
+    "#181008",
+    "#4A2918",
+    "#524A29",
+    "#635A42",
+    "#734229",
+    "#73635A",
+    "#8C4A29",
+    "#C64A31",
+    "#7B7B5A",
+    "#BD8452",
+    "#CE847B",
+    "#DEB594",
+    "#000000"
+  ]
+}

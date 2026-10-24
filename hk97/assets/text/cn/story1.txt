@@ -1,0 +1,4 @@
+# Story page 1 (Chinese).
+# Each line: @x,y text   (x,y in 8-pixel tiles).
+@2,21 九七年來了。来自大陸的人民一
+@2,23 遇吐痰一遇到來。

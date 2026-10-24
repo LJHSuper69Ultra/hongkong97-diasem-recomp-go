@@ -1,0 +1,16 @@
+{
+  "comment": "Rows (Y) at which side-entering enemies (type 9) appear, used in turn.",
+  "fields": [["y", "u16"]],
+  "rows": [
+    {"y": 200},
+    {"y": 64},
+    {"y": 128},
+    {"y": 200},
+    {"y": 64},
+    {"y": 128},
+    {"y": 200},
+    {"y": 64},
+    {"y": 128}
+  ],
+  "terminator": "FFFF"
+}

@@ -1,0 +1,21 @@
+{
+  "comment": "How player shots affect each object type: 0 no effect, 1 one-hit enemy (+5), 2 side enemy with 8 HP (+50), 3 boss with 32 HP (+100).",
+  "fields": [["kind", "u8"]],
+  "rows": [
+    {"kind": 0},
+    {"kind": 0},
+    {"kind": 1},
+    {"kind": 1},
+    {"kind": 1},
+    {"kind": 3},
+    {"kind": 0},
+    {"kind": 0},
+    {"kind": 0},
+    {"kind": 2},
+    {"kind": 0},
+    {"kind": 0},
+    {"kind": 0},
+    {"kind": 0},
+    {"kind": 0}
+  ]
+}

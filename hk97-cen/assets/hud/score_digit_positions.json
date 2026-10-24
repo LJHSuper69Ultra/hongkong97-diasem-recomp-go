@@ -1,0 +1,15 @@
+{
+  "comment": "Score display: tile position of each of the 9 digits (ones digit first).",
+  "fields": [["x", "u8"], ["y", "u8"]],
+  "rows": [
+    {"x": 16, "y": 0},
+    {"x": 14, "y": 0},
+    {"x": 12, "y": 0},
+    {"x": 10, "y": 0},
+    {"x": 8, "y": 0},
+    {"x": 6, "y": 0},
+    {"x": 4, "y": 0},
+    {"x": 2, "y": 0},
+    {"x": 0, "y": 0}
+  ]
+}

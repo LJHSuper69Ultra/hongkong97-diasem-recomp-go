@@ -1,0 +1,6 @@
+# Story page 3 (English).
+# Each line: @x,y text   (x,y in 8-pixel tiles).
+@2,21 for the massacre of the reds.
+@2,22 Chin is a killer machine.
+@2,23 Wipe out all 1.2 billion of
+@2,24 the red communists!

@@ -1,0 +1,4 @@
+# Story page 4 (Chinese).
+# Each line: @x,y text   (x,y in 8-pixel tiles).
+@2,21 但是在中國方面　死了的鄧小平
+@2,23 曽経進行過巨大武器的改造研究！

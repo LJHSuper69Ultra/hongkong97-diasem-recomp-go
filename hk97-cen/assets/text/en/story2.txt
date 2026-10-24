@@ -1,0 +1,7 @@
+# Story page 2 (English).
+# Each line: @x,y text   (x,y in 8-pixel tiles).
+@2,21 Crime rate skyrockeded!
+@2,22 Hongkong is ruined!
+@2,23 Therefore, The Hongkong
+@2,24 government called Bruce Lee's
+@2,25 relative "Chin"

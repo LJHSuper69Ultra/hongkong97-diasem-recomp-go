@@ -1,0 +1,8 @@
+# Story page 4 (English).
+# Each line: @x,y text   (x,y in 8-pixel tiles).
+@2,21 However, in mainland China
+@2,22 there was a secret project
+@2,23 in progress! A project to
+@2,24 transform the deceased Tong
+@2,25 Shau Ping into an ultimate
+@2,26 weapon!
